@@ -1,12 +1,6 @@
 main{
     grid-area: main;
 }
-h1{
-    color: #ffff;
-}
-p{
-    color: #dedede;
-}
 html{
     background-color: #2b6777;
 }
