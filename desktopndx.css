@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows: 20% 80%;
+    margin: 0;
+    grid-template-areas: 
+    "nav nav nav"
+    "main main main" ;
+}
+nav {
+    background-color: #fff;
+    grid-area: nav;
+   }
+   nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+   }
+   nav > ul > li{
+    position: relative;
+   }
