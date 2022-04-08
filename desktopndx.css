@@ -21,3 +21,7 @@ nav {
    nav > ul > li{
     position: relative;
    }
+   nav li a:hover{
+    color: #2b6777;
+    text-decoration: underline;
+}
