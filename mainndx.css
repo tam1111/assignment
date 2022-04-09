@@ -2,15 +2,19 @@ main{
     grid-area: main;
 }
 h1{
-    font-family: Verdana, sans-serif;
+    font-family: "Arial Rounded MT Bold", sans-serif;
 }
 p{
-    font-family: Verdana, sans-serif;
+    font-family: "Arial Rounded MT Bold", sans-serif;
 }
 html{
-    background-color: #2b6777;
+    background: url(back.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 nav li a{
-    color: black;
+    color: #233270;
     text-decoration: none;
 }
