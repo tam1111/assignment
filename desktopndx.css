@@ -7,6 +7,7 @@ body{
     "nav nav nav nav "
     "main main main main";
 }
+/*grid template set*/
 nav {
     background-color: #fff;
     grid-area: nav;
@@ -26,7 +27,8 @@ nav {
     background-color: #58a48d;
     border-radius: 20%;
 }
-h1{
+/*navigation bar set*/
+.home1{
     color: #233270;
     animation: move 6s ease-in forwards;
 }
@@ -64,7 +66,8 @@ h1{
 
 
 }
-p{
+/*keyframe for my h1 set*/
+.home2{
     opacity: 0;
     animation: change 6s ease-in forwards ;
 }
@@ -102,7 +105,8 @@ p{
 
 
 }
-img{
+/*keyframe for p tag in home page*/
+.csslogo{
     animation: fadein 6s ease-in forwards;
 }
 @keyframes fadein {
@@ -115,6 +119,33 @@ img{
         
     }
 }
+.htmllogo{
+    animation: fadein 6s ease-in forwards;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+        
+    }
+}
+.javalogo{
+    animation: fadein 6s ease-in forwards;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+        
+    }
+}
+/*keyframe for images set*/
 
 .csslogo{
     width: 10em;
@@ -138,3 +169,4 @@ img{
     position: fixed;
     
 }
+/*image details set*/
