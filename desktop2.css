@@ -6,7 +6,7 @@ body{
     grid-template-areas: 
     "nav nav nav nav "
     "main main main main"
-    "nasa cia ms google";
+    "nasa cia ms ms";
 }
 /*grid template set*/
 nav {
@@ -35,9 +35,22 @@ nav {
     color: #233270;
     font-size: 5em;
     margin: 0;
+    text-align: center;
 }
 section{
     margin-top: 8em;
+    margin-left: 12em;
+    animation: fadein 4s ease-in forwards;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+        
+    }
 }
 .nasalogo{
     grid-area: nasa;
@@ -59,14 +72,6 @@ section{
     height: 10em;
     z-index: 1;
 }
-.gologo{
-    grid-area: google;
-    width: 8em;
-    height: 8em;
-    margin-top: 5mm;
-    margin-left: 5em;
-    z-index: 1;
-}
 .s1{
     grid-area: nasa;
     width: 20em;
@@ -86,15 +91,6 @@ section{
 }
 .s3{
     grid-area: ms;
-    width: 20em;
-    height: 25em;
-    border: solid;
-    color: white;
-    
-    z-index: 0;
-}
-.s4{
-    grid-area: google;
     width: 20em;
     height: 25em;
     border: solid;

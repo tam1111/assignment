@@ -1,0 +1,114 @@
+body {
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 2% 32% 32% 32% ;
+    height: 100vh;
+    margin: 0;
+    left: 80%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "nasa"
+    "cia"
+    "ms";
+    }
+    .shownav {
+        height: 0.3em;
+        width: 1.25em;
+        display: block;
+         border-top: 0.2em solid white;
+        border-bottom: 0.2em solid white;
+        }
+        .shownav:before {
+            content: '';
+             position: absolute;
+             width: 1.25em;
+             top: 1em;
+             left: 20 px;
+             border-top: 0.2em solid #fff;
+            }
+            nav {
+                display: none;
+                background-color: #ffffff;
+                position: fixed;
+                top: 0;
+                left: 50%;
+                width: 50%;
+                height: 100vh;
+                z-index: 2;
+               }
+               /*
+When the target isn't set, hide the "off"
+button and show the "on" button
+*/
+#clicked .shownav {display: block;}
+#clicked .off {display: none;}
+/*
+When the target is set, hide the "on"
+button and show the "off" button
+*/
+#clicked:target .shownav {display: none;}
+#clicked:target .off {display: block;}
+#clicked:target nav {display: block;}
+
+.port{
+    color: #233270;
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+section{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.nasalogo{
+    grid-area: nasa;
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+}
+.cialogo{
+    grid-area: cia;
+    width: 10em;
+    height: 10em;
+    z-index: 1;
+    margin-top: 5mm;
+    margin-left: 5em;
+}
+.mslogo{
+    grid-area: ms;
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+}
+.s1{
+    grid-area: nasa;
+    width: 20em;
+    height: 13em;
+    border: solid;
+    color: #ffffff;
+    z-index: 0;
+}
+.s2{
+    grid-area: cia;
+    width: 20em;
+    height: 15em;
+    border: solid;
+    color: #ffffff;
+    
+    z-index: 0;
+}
+.s3{
+    grid-area: ms;
+    width: 20em;
+    height: 15em;
+    border: solid;
+    color: white;
+    
+    z-index: 0;
+}
+.nasa{
+    margin: 0;
+}
+/*portfolio images and sections all lined up and adjusted properly*/
