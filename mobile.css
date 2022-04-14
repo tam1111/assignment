@@ -1,0 +1,58 @@
+body {
+    
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+    height: 100vh;
+    margin: 0;
+    left: 80%;
+    grid-template-areas: 
+    "header"
+    "main";
+    }
+    .shownav {
+        height: 0.3em;
+        width: 1.25em;
+        display: block;
+         border-top: 0.2em solid white;
+        border-bottom: 0.2em solid white;
+        }
+        .shownav:before {
+            content: '';
+             position: absolute;
+             width: 1.25em;
+             top: 1em;
+             left: 20 px;
+             border-top: 0.2em solid #fff;
+            }
+            nav {
+                display: none;
+                background-color: #ffffff;
+                position: fixed;
+                top: 0;
+                left: 50%;
+                width: 50%;
+                height: 100vh;
+               }
+               /*
+When the target isn't set, hide the "off"
+button and show the "on" button
+*/
+#clicked .shownav {display: block;}
+#clicked .off {display: none;}
+/*
+When the target is set, hide the "on"
+button and show the "off" button
+*/
+#clicked:target .shownav {display: none;}
+#clicked:target .off {display: block;}
+#clicked:target nav {display: block;}
+
+.home1{
+    color: #233270;
+    font-size: 6em;
+}
+.home2{
+    color: #233270;
+    font-size: 3em;
+}
