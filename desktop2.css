@@ -1,0 +1,58 @@
+body{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25% ;
+    grid-template-rows: auto;
+    margin: 0;
+    grid-template-areas: 
+    "nav nav nav nav "
+    "main main main main"
+    "nasa cia ms google";
+}
+/*grid template set*/
+nav {
+    background-color: #fff;
+    grid-area: nav;
+   }
+   nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: left;
+   }
+   nav > ul > li{
+    position: relative;
+   }
+   nav li a:hover{
+    color: white;
+    text-decoration: underline;
+    background-color: #58a48d;
+    border-radius: 20%;
+}
+#clicked .off {display: none;}
+/*my X sign kept showing on my desktop so did this to hide it */
+
+.port{
+    color: #233270;
+    font-size: 5em;
+    margin: 0;
+}
+.nasalogo{
+    grid-area: nasa;
+    width: 20em;
+    height: 10em;
+}
+.cialogo{
+    grid-area: cia;
+    width: 10em;
+    height: 10em;
+}
+.mslogo{
+    grid-area: ms;
+    width: 20em;
+    height: 10em;
+}
+.gologo{
+    grid-area: google;
+    width: 20em;
+    height: 10em;
+}
