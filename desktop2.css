@@ -36,23 +36,69 @@ nav {
     font-size: 5em;
     margin: 0;
 }
+section{
+    margin-top: 8em;
+}
 .nasalogo{
     grid-area: nasa;
     width: 20em;
     height: 10em;
+    z-index: 1;
 }
 .cialogo{
     grid-area: cia;
     width: 10em;
     height: 10em;
+    z-index: 1;
+    margin-top: 5mm;
+    margin-left: 5em;
 }
 .mslogo{
     grid-area: ms;
     width: 20em;
     height: 10em;
+    z-index: 1;
 }
 .gologo{
     grid-area: google;
+    width: 8em;
+    height: 8em;
+    margin-top: 5mm;
+    margin-left: 5em;
+    z-index: 1;
+}
+.s1{
+    grid-area: nasa;
     width: 20em;
-    height: 10em;
+    height: 25em;
+    border: solid;
+    color: #ffffff;
+    z-index: 0;
+}
+.s2{
+    grid-area: cia;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: #ffffff;
+    
+    z-index: 0;
+}
+.s3{
+    grid-area: ms;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: white;
+    
+    z-index: 0;
+}
+.s4{
+    grid-area: google;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: white;
+    
+    z-index: 0;
 }
