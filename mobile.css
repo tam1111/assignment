@@ -2,7 +2,7 @@ body {
     
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 5% 95%;
     height: 100vh;
     margin: 0;
     left: 80%;
@@ -56,4 +56,55 @@ button and show the "off" button
 .home2{
     color: #233270;
     font-size: 1em;
+}
+form{
+    display: grid;
+    width: 20em;
+    grid: gap 3em; 
+    grid-auto-columns: 100%;
+    margin-left: 2em;
+    animation: fadein 4s ease-in forwards;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100%;
+        
+    }
+}
+input {
+    
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8em;
+    color: #555;
+    }
+    
+.contact{
+    color: #233270;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}   
+.area{
+    margin-top: 2em;
+    height: 20em;
+    border: 2px solid rgb(0, 0, 0);
+    color: #555;
+}
+.area2{
+    margin-top: 2em;
+}
+.link{
+    height: 5em;
+    width: 5em;
+    animation: fadein 4s ease-in forwards;
+}
+.git{
+    height: 5em;
+    width: 5em;
+    margin-left: 2em;
+    animation: fadein 4s ease-in forwards;
 }
