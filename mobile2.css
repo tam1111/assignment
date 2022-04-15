@@ -59,7 +59,7 @@ button and show the "off" button
     text-align: center;
 }
 section{
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 2em;
     animation: fadein 4s ease-in forwards;
 }
@@ -98,7 +98,8 @@ section{
     width: 20em;
     height: 13em;
     border: solid;
-    color: #ffffff;
+    color: #233270;
+    background-color: #233270;
     z-index: 0;
 }
 .s2{
@@ -106,16 +107,18 @@ section{
     width: 20em;
     height: 15em;
     border: solid;
-    color: #ffffff;
+    color: #233270;
+    background-color: #233270;
     
     z-index: 0;
 }
 .s3{
     grid-area: section3;
     width: 20em;
-    height: 15em;
+    height: 13em;
     border: solid;
-    color: white;
+    color: #233270;
+    background-color: #233270;
     
     z-index: 0;
 }
@@ -123,3 +126,46 @@ section{
     margin: 0;
 }
 /*portfolio images and sections all lined up and adjusted properly*/
+
+.b1{
+    float: left;
+    grid-area: section1;
+    width: 10em;
+    height: 5em;
+    z-index: 1;
+}
+.b2{
+    float: left;
+    grid-area: section2;
+    width: 10em;
+    height: 5em;
+    z-index: 1;
+}
+.b3{
+    float: left;
+    grid-area: section3;
+    width: 10em;
+    height: 5em;
+    z-index: 1;
+}
+.blog{
+    color: #233270;
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+section > p{
+    color: #fff;
+    margin: 0;
+}
+
+.s12{
+    grid-area: section1;
+    width: 20em;
+    height: 15em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    z-index: 0;
+}
+
