@@ -9,9 +9,9 @@ body {
     grid-template-areas: 
     "header"
     "main"
-    "nasa"
-    "cia"
-    "ms";
+    "section1"
+    "section2"
+    "section3";
     }
     .shownav {
         height: 0.3em;
@@ -74,13 +74,13 @@ section{
     }
 }
 .nasalogo{
-    grid-area: nasa;
+    grid-area: section1;
     width: 20em;
     height: 10em;
     z-index: 1;
 }
 .cialogo{
-    grid-area: cia;
+    grid-area: section2;
     width: 10em;
     height: 10em;
     z-index: 1;
@@ -88,13 +88,13 @@ section{
     margin-left: 5em;
 }
 .mslogo{
-    grid-area: ms;
+    grid-area: section3;
     width: 20em;
     height: 10em;
     z-index: 1;
 }
 .s1{
-    grid-area: nasa;
+    grid-area: section1;
     width: 20em;
     height: 13em;
     border: solid;
@@ -102,7 +102,7 @@ section{
     z-index: 0;
 }
 .s2{
-    grid-area: cia;
+    grid-area: section2;
     width: 20em;
     height: 15em;
     border: solid;
@@ -111,7 +111,7 @@ section{
     z-index: 0;
 }
 .s3{
-    grid-area: ms;
+    grid-area: section3;
     width: 20em;
     height: 15em;
     border: solid;
