@@ -33,6 +33,7 @@ body {
                 left: 50%;
                 width: 50%;
                 height: 100vh;
+                z-index: 2;
                }
                /*
 When the target isn't set, hide the "off"

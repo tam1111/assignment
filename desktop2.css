@@ -6,7 +6,7 @@ body{
     grid-template-areas: 
     "nav nav nav nav "
     "main main main main"
-    "nasa cia ms ms";
+    "section1 section2 section3 section3";
 }
 /*grid template set*/
 nav {
@@ -38,7 +38,7 @@ nav {
     text-align: center;
 }
 section{
-    margin-top: 8em;
+    margin-top: 1em;
     margin-left: 12em;
     animation: fadein 4s ease-in forwards;
 }
@@ -53,13 +53,13 @@ section{
     }
 }
 .nasalogo{
-    grid-area: nasa;
+    grid-area: section1;
     width: 20em;
     height: 10em;
     z-index: 1;
 }
 .cialogo{
-    grid-area: cia;
+    grid-area: section2;
     width: 10em;
     height: 10em;
     z-index: 1;
@@ -67,34 +67,78 @@ section{
     margin-left: 5em;
 }
 .mslogo{
-    grid-area: ms;
+    grid-area: section3;
     width: 20em;
     height: 10em;
     z-index: 1;
 }
 .s1{
-    grid-area: nasa;
+    grid-area: section1;
+    margin-top: 7em;
     width: 20em;
     height: 25em;
     border: solid;
-    color: #ffffff;
+    color: #233270;
+    background-color: #233270;
     z-index: 0;
 }
 .s2{
-    grid-area: cia;
+    grid-area: section2;
     width: 20em;
     height: 25em;
     border: solid;
-    color: #ffffff;
+    color: #233270;
+    background-color: #233270;
     
     z-index: 0;
 }
 .s3{
-    grid-area: ms;
+    grid-area: section3;
+    margin-top: 7em;
     width: 20em;
     height: 25em;
     border: solid;
-    color: white;
+    color: #233270;
+    background-color: #233270;
     
     z-index: 0;
+}
+.s12{
+    grid-area: section1;
+    margin-top: 7em;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    z-index: 0;
+}
+/*section css which applies to both blog and portfolio*/
+section > p{
+    color: #fff;
+}
+
+.b1{
+    
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+}
+.b2{
+    
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+}
+.b3{
+    
+    width: 20em;
+    height: 10em;
+    z-index: 1;
+}
+.blog{
+    color: #233270;
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
 }
