@@ -28,6 +28,9 @@ body {
              left: 20 px;
              border-top: 0.2em solid #fff;
             }
+            nav ul{
+                list-style-type: square;
+            }
             nav {
                 display: none;
                 background-color: #ffffff;
@@ -168,4 +171,7 @@ section > p{
     background-color: #233270;
     z-index: 0;
 }
+nav li:nth-child(odd) {
+    background-color: #c7c7c7;
+   }
 

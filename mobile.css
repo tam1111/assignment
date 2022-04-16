@@ -25,6 +25,9 @@ body {
              left: 20 px;
              border-top: 0.2em solid #fff;
             }
+            nav ul{
+                list-style-type: square;
+            }
             nav {
                 display: none;
                 background-color: #ffffff;
@@ -129,3 +132,6 @@ input {
     margin-left: 2em;
     animation: fadein 4s ease-in forwards;
 }
+nav li:nth-child(odd) {
+    background-color: #c7c7c7;
+   }
