@@ -132,33 +132,13 @@ nav {
 /*image details set*/
 
 .csslogo{
-    animation: fadein 6s ease-in forwards;
-}
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 100%;
-        
-    }
+    animation: fadein 4s ease-in forwards;
 }
 .htmllogo{
-    animation: fadein 6s ease-in forwards;
-}
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 100%;
-        
-    }
+    animation: fadein 4s ease-in forwards;
 }
 .javalogo{
-    animation: fadein 6s ease-in forwards;
+    animation: fadein 4s ease-in forwards;
 }
 @keyframes fadein {
     0% {
@@ -180,6 +160,7 @@ form{
     grid: gap 3em; 
     grid-auto-columns: 100%;
     margin-left: 25em;
+    animation: fadein 4s ease-in forwards;
 }
 input {
     
@@ -205,9 +186,11 @@ input {
 .link{
     height: 5em;
     width: 5em;
+    animation: fadein 4s ease-in forwards;
 }
 .git{
     height: 5em;
     width: 5em;
     margin-left: 25em;
+    animation: fadein 4s ease-in forwards;
 }
