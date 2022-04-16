@@ -18,5 +18,10 @@ nav li a{
     color: #233270;
     text-decoration: none;
 }
-
+h2{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
 

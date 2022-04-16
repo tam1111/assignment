@@ -22,7 +22,6 @@ body {
              position: absolute;
              width: 1.25em;
              top: 1em;
-             left: 20 px;
              border-top: 0.2em solid #fff;
             }
             nav ul{
@@ -84,7 +83,6 @@ section{
 form{
     display: grid;
     width: 20em;
-    grid: gap 3em; 
     grid-auto-columns: 100%;
     margin-left: 2em;
     animation: fadein 4s ease-in forwards;

@@ -25,7 +25,6 @@ body {
              position: absolute;
              width: 1.25em;
              top: 1em;
-             left: 20 px;
              border-top: 0.2em solid #fff;
             }
             nav ul{
@@ -99,7 +98,7 @@ section{
 .s1{
     grid-area: section1;
     width: 20em;
-    height: 13em;
+    height: 15em;
     border: solid;
     color: #233270;
     background-color: #233270;
@@ -108,7 +107,7 @@ section{
 .s2{
     grid-area: section2;
     width: 20em;
-    height: 15em;
+    height: 16em;
     border: solid;
     color: #233270;
     background-color: #233270;
@@ -118,11 +117,10 @@ section{
 .s3{
     grid-area: section3;
     width: 20em;
-    height: 13em;
+    height: 14em;
     border: solid;
     color: #233270;
     background-color: #233270;
-    
     z-index: 0;
 }
 .nasa{
@@ -165,7 +163,7 @@ section > p{
 .s12{
     grid-area: section1;
     width: 20em;
-    height: 15em;
+    height: 17em;
     border: solid;
     color: #233270;
     background-color: #233270;

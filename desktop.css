@@ -157,7 +157,6 @@ nav {
 form{
     display: grid;
     width: 600px;
-    grid: gap 3em; 
     grid-auto-columns: 100%;
     margin-left: 25em;
     animation: fadein 4s ease-in forwards;
