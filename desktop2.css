@@ -113,6 +113,27 @@ section{
     background-color: #233270;
     z-index: 0;
 }
+.s22{
+    grid-area: section2;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    
+    z-index: 0;
+}
+.s32{
+    grid-area: section3;
+    margin-top: 7em;
+    width: 20em;
+    height: 25em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    
+    z-index: 0;
+}
 /*section css which applies to both blog and portfolio*/
 section > p{
     color: #fff;

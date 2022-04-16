@@ -225,3 +225,6 @@ input {
     color: black;
     
 }
+section{
+    animation: fadein 4s ease-in forwards;
+}
