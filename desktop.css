@@ -106,6 +106,31 @@ nav {
 
 }
 /*keyframe for p tag in home page*/
+
+.csslogo{
+    width: 10em;
+    height: 10em;
+    margin-left: 60em;
+    margin-top: 10em;
+    position: fixed;
+}
+.htmllogo{
+    width: 10em;
+    height: 10em;
+    margin-left: 45em;
+    margin-top: 10em;
+    position: fixed;
+}
+.javalogo{
+    width: 12em;
+    height: 12em;
+    margin-left: 32em;
+    margin-top: 10em;
+    position: fixed;
+    
+}
+/*image details set*/
+
 .csslogo{
     animation: fadein 6s ease-in forwards;
 }

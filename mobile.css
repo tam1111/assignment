@@ -2,7 +2,7 @@ body {
     
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 95%;
+    grid-template-rows: 5% 65% 30%;
     height: 100vh;
     margin: 0;
     left: 80%;
@@ -51,12 +51,33 @@ button and show the "off" button
 
 .home1{
     color: #233270;
-    font-size: 3em;
+    font-size: 5em;
+    text-align: center;
+    animation: fadein 4s ease-in forwards;
 }
 .home2{
     color: #233270;
-    font-size: 1em;
+    font-size: 3em;
+    text-align: center;
+    animation: fadein 4s ease-in forwards;
 }
+section{
+    grid-area: section;
+    margin-left: 4em;
+    animation: fadein 4s ease-in forwards;
+}
+.csslogo{
+    display: none;
+}
+.htmllogo{
+    display: none;
+}
+.javalogo{
+    display: none;
+}
+/*image details set*/
+
+
 form{
     display: grid;
     width: 20em;
