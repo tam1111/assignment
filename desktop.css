@@ -5,6 +5,7 @@ body{
     margin: 0;
     grid-template-areas: 
     "nav nav nav nav "
+    "main main main main"
     "main main main main";
 }
 /*grid template set*/
@@ -192,4 +193,35 @@ input {
     width: 5em;
     margin-left: 25em;
     animation: fadein 4s ease-in forwards;
+}
+.site{
+    color: #233270;
+    text-align: center;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.p1{
+    color: #000000;
+}
+.web1{
+    height: 5em;
+    width: 10em;
+    border: solid;
+    color: black;
+    
+}
+.back1{
+    height: 5em;
+    width: 10em;
+    border: solid;
+    color: black;
+    
+}
+.back2{
+    height: 5em;
+    width: 10em;
+    border: solid;
+    color: black;
+    
 }

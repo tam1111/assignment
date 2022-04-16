@@ -13,6 +13,7 @@ html{
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 nav li a{
     color: #233270;
@@ -23,5 +24,10 @@ h2{
     color: white;
     text-align: center;
     margin: 0;
+}
+
+h3{
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    color: #233270;
 }
 

@@ -169,6 +169,27 @@ section > p{
     background-color: #233270;
     z-index: 0;
 }
+.s22{
+    grid-area: section2;
+    width: 20em;
+    height: 16em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    margin-top: 3em;
+    z-index: 0;
+}
+.s32{
+    grid-area: section3;
+    width: 20em;
+    height: 14em;
+    border: solid;
+    color: #233270;
+    background-color: #233270;
+    z-index: 0;
+    margin-top: 3em;
+}
+
 nav li:nth-child(odd) {
     background-color: #c7c7c7;
    }
