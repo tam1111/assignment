@@ -205,22 +205,15 @@ input {
     color: #000000;
 }
 .web1{
-    height: 5em;
-    width: 10em;
+    height: 15em;
+    width: 30em;
     border: solid;
     color: black;
     
 }
 .back1{
-    height: 5em;
-    width: 10em;
-    border: solid;
-    color: black;
-    
-}
-.back2{
-    height: 5em;
-    width: 10em;
+    height: 15em;
+    width: 30em;
     border: solid;
     color: black;
     
